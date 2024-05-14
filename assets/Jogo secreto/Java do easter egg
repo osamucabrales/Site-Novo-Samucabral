@@ -1,0 +1,20 @@
+let score = 0;
+
+function startGame() {
+  createTarget();
+}
+
+function createTarget() {
+  const target = document.getElementById("target");
+
+  target.style.top = Math.random() * (window.innerHeight - 70) + "px";
+  target.style.left = Math.random() * (window.innerWidth - 70) + "px";
+
+  target.onclick = function () {
+    score++;
+    document.getElementById("score").innerText = "Score: " + score;
+    createTarget();
+  };
+}
+
+startGame();

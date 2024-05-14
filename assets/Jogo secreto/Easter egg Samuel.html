@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Cabral</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap">
+    <style>
+        /* Estilos gerais */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Fundo preto */
+            color: #ffffff; /* Texto branco */
+            font-family: 'Space Grotesk', sans-serif;
+            overflow-y: scroll; /* Habilitar barra de rolagem vertical */
+            min-height: 20vh; /* Altura mínima do corpo da página */
+        }
+
+        /* Estilos para a barra de rolagem vertical */
+        ::-webkit-scrollbar {
+            width: 20px;
+            background-color: #f4a538; /* Fundo da barra */
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #7c8773; /* Cor do retângulo na barra */
+            border-radius: 0; /* Sem bordas arredondadas */
+        }
+
+        /* Estilos para o cabeçalho (hero section) */
+        .hero {
+            background-color: #000000; /* Fundo preto */
+            text-align: center;
+            padding: 100px 20px; /* Espaçamento interno superior e inferior */
+            width: 100%;
+            z-index: 1; /* Garantindo que a hero section fique na frente do conteúdo */
+        }
+
+        /* Estilos para a imagem de fundo da hero section */
+        .background-img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Estilos para a logo com fade e glow */
+        #logo {
+            max-width: 25%;
+            height: auto;
+            filter: brightness(1); /* Remover brilho inicial */
+            opacity: 0; /* Ocultar logo inicialmente */
+            transition: filter 0.3s, opacity 1s, box-shadow 0.3s;
+            animation: fade-in 2s ease-in-out forwards; /* Efeito de fade-in */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* Efeito fade-in da logo */
+        #logo.loaded {
+            opacity: 1;
+        }
+
+        /* Efeito glow ao passar o mouse */
+        #logo:hover {
+            filter: brightness(1.4) drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+        }
+
+        /* Efeito de fade-in */
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Estilos para o menu */
+        nav {
+            text-align: center; /* Centralizar o conteúdo */
+            font-size: 18px;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%; /* Largura total */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0; /* Remover a margem à direita do último item */
+        }
+
+        nav ul li a {
+            color: #ffffff; /* Texto do menu branco */
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff80; /* Cor com transparência para o efeito de hover */
+        }
+
+        /* Estilos para o conteúdo abaixo da hero section */
+        .content {
+            margin-top: 100px; /* Espaçamento superior para evitar que fique ocultado pela hero section */
+            text-align: center;
+        }
+
+        .content h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 50px;
+        }
+
+        .content h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .emoji {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        footer {
+            /* Estilos para o footer aqui (se necessário) */
+        }
+
+        .footer-container {
+            background-color: #111; /* Cor cinza quase preto */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            max-width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .social-links {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        .social-links li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .social-links a {
+            color: #fff; /* Cor dos ícones das redes sociais */
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .copyright {
+            margin-top: 20px;
+            color: #999; /* Cor do texto de direitos autorais */
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <!-- Menu -->
+        <nav>
+            <ul>
+                <li><a href="#">Pistas</a></li>
+                <li><a href="#">Sobre o jogo</a></li>
+                <li><a href="#">Portfolio</a></li>
+               
+            </ul>
+        </nav>
+
+     
+        <img src="Assets/Logo PNG.png" alt="Fundo hero section">
+    </div>
+    
+    <!-- Conteúdo do corpo do site -->
+    <div class="content">
+        <h1>Bem-vindos ao jogo secreto</h1>
+        <h2>Você está preparadx? </h>
+
+      <div class="text-center">
+        <a href=" meu jogo " download>
+            <button>COMEÇAR </button>
+
+    </div>
+
+</body>
+
+<footer>
+    <div class="footer-container">
+
+
+        </p>
+    </div>
+</footer>
+</html>
