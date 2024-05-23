@@ -1,3 +1,6 @@
-Site Oficial do Samuel Cabral
+Thanks for downloading this template!
 
-Eu mesmo montei no meu Estúdio galera, espero esteja ok para os parâmetros necessários!
+Template Name: Kelly
+Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+Author: BootstrapMade.com
+License: https://bootstrapmade.com/license/
