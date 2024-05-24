@@ -1,10 +1,3 @@
-/**
-* Template Name: Kelly
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -62,8 +55,8 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #34b7a7;
-  border-top-color: #dcf5f2;
+  border: 6px solid #F5CF9B;
+  border-top-color: #111212;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -445,7 +438,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #F4A538;
+  color: #C32527;
   margin: 10px 0 0 0;
   font-size: 22px;
 }
@@ -635,7 +628,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #222222;
+  color: #0E2F1F;
 }
 
 .skills .progress .skill .val {
@@ -651,7 +644,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #34b7a7;
+  background-color: #0E2F1F;
 }
 
 /*--------------------------------------------------------------
@@ -660,7 +653,7 @@ section {
 .facts .counters span {
   font-size: 48px;
   display: block;
-  color: #34b7a7;
+  color: #C32527;
 }
 
 .facts .counters p {
@@ -702,7 +695,7 @@ section {
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #000000;
   margin: 0 0 15px 0;
 }
 
@@ -746,11 +739,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #34b7a7;
+  border: 1px solid #000000;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #34b7a7;
+  background-color: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -767,7 +760,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #34b7a7;
+  border-left: 2px solid #C32527;
   position: relative;
 }
 
@@ -776,7 +769,7 @@ section {
   font-size: 18px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #1d685f;
+  color: #0E2F1F;
   margin-bottom: 10px;
 }
 
@@ -787,7 +780,7 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-  color: #34b7a7;
+  color: #0E2F1F;
 }
 
 .resume .resume-item ul {
@@ -810,8 +803,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #34b7a7;
+  background: #F5CF9B;
+  border: 2px solid #C32527;
 }
 
 /*--------------------------------------------------------------
