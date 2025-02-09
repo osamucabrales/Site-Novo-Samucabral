@@ -35,6 +35,15 @@ h6 {
     margin-top: 30px;
   }
 }
+
+.center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 /*------------------------------------------
 Botão Portfolio para download*/
 
@@ -527,6 +536,16 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+}
+
+.section-text
+{
+  text-align: center;
+}
+
+.start-button
+{
+
 }
 
 .section-title h2::after {
