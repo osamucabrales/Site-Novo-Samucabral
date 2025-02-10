@@ -13,11 +13,11 @@ INICIO:
 SOBRE: 
 1. Tirar sessão “fatos” e colocar 
 2. Manter depoimentos - vou acrescentar mais e te passar
-3. Sessão nova - “Marcas que já trabalharam conosco” - vou te passar todos os logos
-4. Sessão nova - Onde nos ouvir? - vou te passar os links e os logos das plataformas
+3. Sessão nova - “Marcas que já trabalharam conosco” - vou te passar todos os logos - Sessão criada
+4. Sessão nova - Onde nos ouvir? - vou te passar os links e os logos das plataformas - Sessão criada
 
 BIO :
-- VAI VIRAR INICIO.
+~~VAI VIRAR INICIO~~
 
 SERVIÇOS:
 1. Vou te passar os 6 ícones
