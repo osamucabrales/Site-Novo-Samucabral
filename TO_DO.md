@@ -28,6 +28,8 @@ PÁGINA NOVA: BLOG
 3. Sessão com carrossel de thumbs para VLOGS, link YouTube: https://www.youtube.com/@osamucabral 
 4. Aceito alternativas quanto a isso - mas de fato preciso de um blog no site! 
  
+
+
 PÁGINA NOVA: LOJA
 Cada imagem vai para um site diferente de ecommerce! 
 1. 4 fotos de camisas (carrossel) Link para loja de camisas: https://reserva.ink/srcnetwork 
