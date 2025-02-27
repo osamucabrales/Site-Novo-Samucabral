@@ -22,7 +22,7 @@ BIO :
 SERVIÇOS:
 1. Vou te passar os 6 ícones
 
-PÁGINA NOVA: BLOG
+~~PÁGINA NOVA: BLOG~~
 1. Carrossel de Thumbs de postagens
 2. Cada thumb vai direcionar para um link do meu blog: https://criatividadedosamu.blogspot.com/ 
 3. Sessão com carrossel de thumbs para VLOGS, link YouTube: https://www.youtube.com/@osamucabral 
