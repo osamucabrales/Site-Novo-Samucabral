@@ -31,6 +31,8 @@ SERVIÇOS:
 
 
 ~~PÁGINA NOVA: LOJA~~
+
+
 Cada imagem vai para um site diferente de ecommerce! 
 OBS: 
 - A página de loja terá duas seções para os dois tipos de produtos providenciados
