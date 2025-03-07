@@ -643,7 +643,43 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
+/*--------------------------------------------------------------
+ # Blog                                                      *
+ --------------------------------------------------------------*/
 
+.card-body {
+  min-height: 200px;
+  min-width: 300px;
+  max-height: 200px;
+  max-width: 300px;
+  margin-right: 5px;
+}
+.card-wrap {
+  min-height: 166px;
+  min-width: 266px;
+  max-height: 166px;
+  max-width: 266px;
+  background: rgba(34, 34, 34, 0.0);
+}
+.card-wrap .img-fluid{
+  z-index: 2;
+}
+
+.card-img{
+  height: 166px;
+  width: 266px;
+  object-fit: scale-down;
+}
+.card-info {
+  z-index: 1;
+}
+.card-wrap:hover {
+  background: rgba(34, 34, 34, 0.6);
+}
+
+.card-wrap:hover .card-info{
+  z-index: 3;
+}
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
